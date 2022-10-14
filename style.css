@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.main-container {
+    height: 100vh;
+    width: 100vw;
+    overflow-x: hidden;
+}
+
+.container {
+    height: 100%;
+    width: 100%;
+    background: rgba(128, 0, 128, .3);
+}
+
+.img-container {
+    height: 100%;
+    width: 50%;
+    margin-right: 15%;
+    background:rgba(128, 0, 128, .1);
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    transform: translate(-100%);
+}
+
+#logo {
+    height: 70vh;
+    transform-origin: center;
+    transform: rotate(40deg);
+}
